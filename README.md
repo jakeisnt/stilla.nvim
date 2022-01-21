@@ -1,13 +1,12 @@
 
-# shaunsingh/nord.nvim 
+# jakeisnt/theme.nvim
 
-## Neovim theme based off of the [Nord Color Palette.](https://www.nordtheme.com/docs/colors-and-palettes)
-
-![118406380-d78ad580-b649-11eb-945c-5988fa717f39](https://user-images.githubusercontent.com/71196912/128029391-ad55fd41-d5f9-43bd-a795-c11b562f9d6d.jpg)
+Custom theme
+Uses a framework established by [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim)
 
 ## Features
 
-Nord.nvim is meant to be a modern colorscheme written in lua for NeoVim that supports a lot of the new features
+theme.nvim is meant to be a modern colorscheme written in lua for NeoVim that supports a lot of the new features
 added to NeoVim like built-in LSP and [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 + Supported plugins:
@@ -53,7 +52,7 @@ use 'shaunsingh/nord.nvim'
 ## 🌓 Usage
 
 Enable the colorscheme:
-```vim 
+```vim
 "Vim-Script:
 colorscheme nord
 ```
@@ -85,7 +84,7 @@ require('lualine').setup {
 | nord_cursorline_transparent     | `false`     | Set the cursorline transparent/visible
 | nord_enable_sidebar_background  | `false`     | Re-enables the backgrond of the sidebar if you disabled the background of everything
 | nord_italic                     | `true`      | enables/disables italics
- 
+
 
 ```lua
 -- Example config in lua
