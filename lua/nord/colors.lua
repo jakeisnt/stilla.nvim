@@ -1,23 +1,23 @@
 local nord = (vim.o.background == "dark")
 		and {
 			--16 colors
-			nord0_gui = "#2E3440", -- nord0 in palette
-			nord1_gui = "#3B4252", -- nord1 in palette
-			nord2_gui = "#434C5E", -- nord2 in palette
-			nord3_gui = "#4C566A", -- nord3 in palette
-			nord3_gui_bright = "#616E88", -- out of palette
-			nord4_gui = "#D8DEE9", -- nord4 in palette
-			nord5_gui = "#E5E9F0", -- nord5 in palette
-			nord6_gui = "#ECEFF4", -- nord6 in palette
-			nord7_gui = "#8FBCBB", -- nord7 in palette
-			nord8_gui = "#88C0D0", -- nord8 in palette
-			nord9_gui = "#81A1C1", -- nord9 in palette
-			nord10_gui = "#5E81AC", -- nord10 in palette
-			nord11_gui = "#BF616A", -- nord11 in palette
-			nord12_gui = "#D08770", -- nord12 in palette
-			nord13_gui = "#EBCB8B", -- nord13 in palette
-			nord14_gui = "#A3BE8C", -- nord14 in palette
-			nord15_gui = "#B48EAD", -- nord15 in palette
+			nord0_gui = "#0e1111", -- background
+			nord1_gui = "#0e1111", -- normal black
+			nord2_gui = "#434C5E", -- nord2 in palette ??
+			nord3_gui = "#4C566A", -- as below
+			nord3_gui_bright = "DarkGray", -- fadecolor, altblack
+			nord4_gui = "LightGray", -- foreground
+			nord5_gui = "White", -- normal white
+			nord6_gui = "#ECEFF4", -- alt white
+			nord7_gui = "#8FBCBB", -- alt cyan
+			nord8_gui = "#88C0D0", -- cyan
+			nord9_gui = "#778899", -- blue
+			nord10_gui = "#5E81AC", -- nord10 in palette ??
+			nord11_gui = "#b6403a", -- red
+			nord12_gui = "Yellow", -- yellow
+			nord13_gui = "Yellow", -- yellow ??
+			nord14_gui = "#478226", -- green
+			nord15_gui = "#", -- magenta
 			none = "NONE",
 		}
 	or {
