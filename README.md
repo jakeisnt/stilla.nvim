@@ -1,13 +1,9 @@
 
-# jakeisnt/theme.nvim
+# jakeisnt/stilla.nvim
 
-Custom theme
-Uses a framework established by [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim)
+My vim/nvim theme. Uses a framework established by [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim)
 
 ## Features
-
-theme.nvim is meant to be a modern colorscheme written in lua for NeoVim that supports a lot of the new features
-added to NeoVim like built-in LSP and [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 + Supported plugins:
     + [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -41,12 +37,12 @@ added to NeoVim like built-in LSP and [TreeSitter](https://github.com/nvim-trees
 Install via your favourite package manager:
 ```vim
 " If you are using Vim-Plug
-Plug 'shaunsingh/nord.nvim'
+Plug 'jakeisnt/stilla.nvim'
 ```
 
 ```lua
 -- If you are using Packer
-use 'shaunsingh/nord.nvim'
+use 'jakeisnt/stilla.nvim'
 ```
 
 ## 🌓 Usage
@@ -54,12 +50,12 @@ use 'shaunsingh/nord.nvim'
 Enable the colorscheme:
 ```vim
 "Vim-Script:
-colorscheme nord
+colorscheme stilla
 ```
 
 ```lua
 --Lua:
-vim.cmd[[colorscheme nord]]
+vim.cmd[[colorscheme stilla]]
 ```
 
 To enable the `nord` theme for `Lualine`, simply specify it in your lualine settings:
@@ -68,7 +64,7 @@ To enable the `nord` theme for `Lualine`, simply specify it in your lualine sett
 require('lualine').setup {
   options = {
     -- ... your lualine config
-    theme = 'nord'
+    theme = 'stilla'
     -- ... your lualine config
   }
 }
@@ -78,33 +74,33 @@ require('lualine').setup {
 
 | Option                              | Default     | Description                                                                                                                                                     |
 | ----------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| nord_contrast                   | `false`      | Make sidebars and popup menus like nvim-tree and telescope have a different background                                                                                       |
-| nord_borders                    | `false`     | Enable the border between verticaly split windows visable
-| nord_disable_background         | `false`     | Disable the setting of background color so that NeoVim can use your terminal background
-| nord_cursorline_transparent     | `false`     | Set the cursorline transparent/visible
-| nord_enable_sidebar_background  | `false`     | Re-enables the backgrond of the sidebar if you disabled the background of everything
-| nord_italic                     | `true`      | enables/disables italics
+| stilla_contrast                   | `false`      | Make sidebars and popup menus like nvim-tree and telescope have a different background                                                                                       |
+| stilla_borders                    | `false`     | Enable the border between verticaly split windows visable
+| stilla_disable_background         | `false`     | Disable the setting of background color so that NeoVim can use your terminal background
+| stilla_cursorline_transparent     | `false`     | Set the cursorline transparent/visible
+| stilla_enable_sidebar_background  | `false`     | Re-enables the backgrond of the sidebar if you disabled the background of everything
+| stilla_italic                     | `true`      | enables/disables italics
 
 
 ```lua
 -- Example config in lua
-vim.g.nord_contrast = true
-vim.g.nord_borders = false
-vim.g.nord_disable_background = false
-vim.g.nord_italic = false
+vim.g.stilla_contrast = true
+vim.g.stilla_borders = false
+vim.g.stilla_disable_background = false
+vim.g.stilla_italic = false
 
 -- Load the colorscheme
-require('nord').set()
+require('stilla').set()
 ```
 
 ```vim
 " Example config in Vim-Script
-let g:nord_contrast = v:true
-let g:nord_borders = v:false
-let g:nord_disable_background = v:false
-let g:nord_italic = v:false
+let g:stilla_contrast = v:true
+let g:stilla_borders = v:false
+let g:stilla_disable_background = v:false
+let g:stilla_italic = v:false
 
 " Load the colorscheme
-colorscheme nord
+colorscheme stilla
 ```
 

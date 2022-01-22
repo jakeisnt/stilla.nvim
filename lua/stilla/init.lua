@@ -1,6 +1,6 @@
--- Colorscheme name:    nord.nvim
--- Description:         Port of articicestudio's nord theme for neovim
--- Author:              https://github.com/shaunsingh
+-- Colorscheme name:    stilla.nvim
+-- Description:         jakeisnt's color scheme
+-- Author:              https://github.com/jakeisnt
 
 local util = require("stilla.util")
 

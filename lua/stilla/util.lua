@@ -66,7 +66,7 @@ function util.load()
 		util.highlight(group, colors)
 	end
 
-	nord.loadTerminal()
+	stilla.loadTerminal()
 
 	-- imort tables for plugins and lsp
 	local plugins = stilla.loadPlugins()
@@ -83,7 +83,7 @@ function util.load()
 	end
 
 	-- if contrast is enabled, apply it to sidebars and floating windows
-	-- if vim.g.nord_contrast == true then
+	-- if vim.g.stilla_contrast == true then
 	util.contrast()
 	-- end
 end
