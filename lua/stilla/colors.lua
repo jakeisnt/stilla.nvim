@@ -1,26 +1,26 @@
 local stilla = (vim.o.background == "dark")
 		and {
 			--16 colors
-			stilla0_gui = "#0e1111", -- background
+			stilla0_gui = "#0D0D0D", -- background
 			stilla1_gui = "#0e1111", -- normal black
 			stilla2_gui = "#434C5E", -- nord2 in palette ??
 			stilla3_gui = "#4C566A", -- as below
-			stilla3_gui_bright = "DarkGray", -- fadecolor, altblack
-			stilla4_gui = "LightGray", -- foreground
-			stilla5_gui = "White", -- normal white
+			stilla4_gui = "#8C8C8C", -- foreground
+			stilla5_gui = "#F2F2F2", -- normal white
 			stilla6_gui = "#ECEFF4", -- alt white
 			stilla7_gui = "#8FBCBB", -- alt cyan
 			stilla8_gui = "#88C0D0", -- cyan
 			stilla9_gui = "#778899", -- blue
 			stilla10_gui = "#5E81AC", -- nord10 in palette ??
 			stilla11_gui = "#b6403a", -- red
-			stilla12_gui = "Yellow", -- yellow
-			stilla13_gui = "Yellow", -- yellow ??
-			stilla14_gui = "#478226", -- green
-			stilla15_gui = "#", -- magenta
+			stilla12_gui = "#d99962", -- yellow
+			stilla13_gui = "#d99962", -- yellow ??
+			stilla14_gui = "white", -- green (not actually green) used for strings, etc...
+			stilla15_gui = "#CD96B3", -- magenta
 			none = "NONE",
 		}
-	or {
+	or { -- note: light theme is still identical to nord
+             -- has not been designed or curated yet
 		--16 colors
 		stilla0_gui = "#ECEFF4", -- nord6 in palette
 		stilla1_gui = "#E5E9F0", -- nord5 in palette
