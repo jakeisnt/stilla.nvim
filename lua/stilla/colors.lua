@@ -5,17 +5,18 @@ local stilla = (vim.o.background == "dark")
 			stilla1_gui = "#0e1111", -- normal black
 			stilla2_gui = "#434C5E", -- nord2 in palette ??
 			stilla3_gui = "#4C566A", -- as below
-			stilla4_gui = "#8C8C8C", -- foreground
+		        stilla3_gui_bright = "#8C8C8C", -- out of palette
+			stilla4_gui = "#F2F2F2", -- foreground
 			stilla5_gui = "#F2F2F2", -- normal white
-			stilla6_gui = "#ECEFF4", -- alt white
+			stilla6_gui = "#8C8C8C", -- alt white
 			stilla7_gui = "#8FBCBB", -- alt cyan
 			stilla8_gui = "#88C0D0", -- cyan
 			stilla9_gui = "#778899", -- blue
 			stilla10_gui = "#5E81AC", -- nord10 in palette ??
-			stilla11_gui = "#b6403a", -- red
+			stilla11_gui = "#A63D40", -- red
 			stilla12_gui = "#d99962", -- yellow
-			stilla13_gui = "#d99962", -- yellow ??
-			stilla14_gui = "white", -- green (not actually green) used for strings, etc...
+			stilla13_gui = "#E9B872", -- yellow2
+			stilla14_gui = "white", -- green (not actually green) used for strings, mostly...
 			stilla15_gui = "#CD96B3", -- magenta
 			none = "NONE",
 		}
