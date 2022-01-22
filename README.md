@@ -3,8 +3,6 @@
 
 > `Still` :: A quiet, introverted theme that stays out of your way.
 
-Uses a framework established by [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim)
-
 ## Features
 
 + Supported plugins:
@@ -105,4 +103,9 @@ let g:stilla_italic = v:false
 " Load the colorscheme
 colorscheme stilla
 ```
+
+## Inspiration
+
+Uses a framework established by [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim). The entire color scheme has been changed, but all credit for the structure of the repository goes to them.
+
 
