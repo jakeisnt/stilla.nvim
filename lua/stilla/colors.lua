@@ -3,7 +3,7 @@ local stilla = (vim.o.background == "dark")
 			--16 colors
 			stilla0_gui = "#0D0D0D", -- background
 			stilla1_gui = "#121414", -- normal black
-			stilla2_gui = "#434C5E", -- nord2 in palette ??
+			stilla2_gui = "#1A1C1C", -- nord2 in palette ??
 			stilla3_gui = "#4C566A", -- as below
 		        stilla3_gui_bright = "#8C8C8C", -- out of palette
 			stilla4_gui = "#F2F2F2", -- foreground
