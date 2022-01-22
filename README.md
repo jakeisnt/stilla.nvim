@@ -1,7 +1,9 @@
 
 # jakeisnt/stilla.nvim
 
-My vim/nvim theme. Uses a framework established by [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim)
+> `Still` :: A quiet, introverted theme that stays out of your way.
+
+Uses a framework established by [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim)
 
 ## Features
 
